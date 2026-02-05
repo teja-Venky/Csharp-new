@@ -1,17 +1,17 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-// Branches and Selection Statements in C#
+﻿//using System;
+//using System.Collections.Generic;
+//using System.Linq;
+//using System.Text;
+//using System.Threading.Tasks;
+//// Branches and Selection Statements in C#
 
-namespace Csharp_new
-{
-    internal class Branches
-    {
-        static void Main(string[] args)
-        {
-            //program1: if Statement in C#
+//namespace Csharp_new
+//{
+//    internal class Branches
+//    {
+       // static void Main(string[] args)
+       // {
+       //     //program1: if Statement in C#
             //int a = 5;
             //int b = 6;
             //int c = 3;
@@ -263,54 +263,54 @@ namespace Csharp_new
             //}
 
             //PROGRAM2:IF-ELSE-IF
-            int marks = 82;
+//            int marks = 82;
 
-            if (marks >= 90)
-            {
-                Console.WriteLine("Grade A+");
-            }
-            else if (marks >= 75 && marks < 90)
-            {
-                Console.WriteLine("Grade A");
-            }
-            else if (marks >= 60 && marks < 75)
-            {
-                Console.WriteLine("Grade B");
-            }
-            else if (marks >= 40 && marks < 60)
-            {
-                Console.WriteLine("Grade C");
-            }
-            else
-            {
-                Console.WriteLine("Fail");
-            }
+//            if (marks >= 90)
+//            {
+//                Console.WriteLine("Grade A+");
+//            }
+//            else if (marks >= 75 && marks < 90)
+//            {
+//                Console.WriteLine("Grade A");
+//            }
+//            else if (marks >= 60 && marks < 75)
+//            {
+//                Console.WriteLine("Grade B");
+//            }
+//            else if (marks >= 40 && marks < 60)
+//            {
+//                Console.WriteLine("Grade C");
+//            }
+//            else
+//            {
+//                Console.WriteLine("Fail");
+//            }
 
-            //PROGRAM3: SWITCH STATEMENT 
+//            //PROGRAM3: SWITCH STATEMENT 
 
-            int years = 6;
-            double performance = 4.5;
+//            int years = 6;
+//            double performance = 4.5;
 
-            switch (years)
-            {
-                case int y when y >= 10 && performance >= 4.5:
-                    Console.WriteLine("Bonus: 30%");
-                    break;
+//            switch (years)
+//            {
+//                case int y when y >= 10 && performance >= 4.5:
+//                    Console.WriteLine("Bonus: 30%");
+//                    break;
 
-                case int y when y >= 5 && performance >= 4.0:
-                    Console.WriteLine("Bonus: 20%");
-                    break;
+//                case int y when y >= 5 && performance >= 4.0:
+//                    Console.WriteLine("Bonus: 20%");
+//                    break;
 
-                case int y when y >= 2 && performance >= 3.0:
-                    Console.WriteLine("Bonus: 10%");
-                    break;
+//                case int y when y >= 2 && performance >= 3.0:
+//                    Console.WriteLine("Bonus: 10%");
+//                    break;
 
-                default:
-                    Console.WriteLine("No bonus");
-                    break;
-            }
+//                default:
+//                    Console.WriteLine("No bonus");
+//                    break;
+//            }
 
 
-        }
-    }
-}
+//        }
+//    }
+//}
